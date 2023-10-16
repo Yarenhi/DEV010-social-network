@@ -1,0 +1,190 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+}
+
+img {
+    max-width: 200px;
+    width: 80%;
+    height: auto;
+}
+
+button{
+  display: inline-block;
+  background: white;
+  color: #444;
+  width: 200px; 
+  height: 45px; 
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+  span.label {
+    font-family: serif;
+    font-weight: normal;   
+}
+/* En tu archivo de estilo CSS */
+.google-login-button {
+    /* Estilos para el botón */
+    background-color:#FFFFFF;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex; /* Hace que los elementos hijos se coloquen en fila */
+    align-items: center; /* Centra verticalmente los elementos en el botón */
+  }
+  
+  /* Estilos para la imagen dentro del botón */
+  .google-login-icon {
+    width: 18px; /* Ajusta el tamaño según tus necesidades */
+    height: 18px; /* Ajusta el tamaño según tus necesidades */
+    margin-right: 8px; /* Espacio a la derecha de la imagen */
+  }
+  input{
+    border: thin solid #888;
+    width: 200px; 
+    height: 35px;
+    background-color: rgb(250, 250, 247);
+    font-size: 12px;
+    border-radius: 5px; /* Bordes redondeados */
+  
+  }
+
+  .btn-registro,
+  .btn-submit,
+  .btn-rest{
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Relleno (padding) interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+    border: thin solid #f8f7f7;
+  
+}
+.reset-pass{
+  cursor: pointer;
+  
+}
+.reset-pass:hover{
+  text-decoration: underline;
+}
+#btn-submit{
+  width: 40px; 
+  height: 20px; 
+  font-size: 8px;
+  background-color: #235930; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  float: right; /* Alinea el botón a la derecha */
+  border: thin solid #f8f7f7;
+
+}
+#text-post{
+  width: 200px; /* Ancho del textarea al 100% del contenedor */
+  height: 100px; /* Altura fija del textarea */
+  padding: 10px; /* Espaciado interior para el contenido */
+  font-size: 14px; /* Tamaño de fuente */
+  border: 1px solid #235930; /* Borde del textarea */
+  border-radius: 5px; /* Bordes redondeados */
+  resize: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section1{
+  width: 220px; 
+  height: auto;
+  background-color: white;
+  font-size: 12px;
+  border: 1px solid #235930; /* Borde del textarea */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: justify;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 10px;
+}
+#sectionP{
+  border: 1px solid #faf9f9; /* Borde */
+  width: 100%; 
+  height: 50px; /* Altura fija  */ 
+}
+.delete-button{
+  width: 30px; 
+  height: 15px; 
+  font-size: 7px;
+  background-color: rgb(248, 93, 93); /* Color de fondo */
+  color: #fff; /* Color del texto */
+  float: right; /* Alinea el botón a la derecha */
+  border: thin solid #f8f7f7;
+}
+.delete-button:hover{
+
+  background-color: rgb(230, 8, 8); /* Color de fondo */
+
+}
+.edit-button{
+  width: 30px; 
+  height: 15px; 
+  font-size: 7px;
+  background-color: #5ba8fa; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  float: right; /* Alinea el botón a la derecha */
+  border: thin solid #f8f7f7;
+}
+.edit-button:hover{
+
+  background-color: #034fa0; /* Color de fondo */
+
+}
+.like-button{
+  background-color: #6997f3;
+  width: 40px; 
+  height: 25px;
+  font-size: 8px;
+  color:white;
+  border: thin solid #f8f7f7;
+
+
+}
+.like-button:hover{
+  background-color: #f763a1;
+  color: rgb(255, 255, 255);
+}
+
+#btn-logout{
+  background-color: #f1f5f8;
+  width: 70px; 
+  height: 20px;
+  font-size: 10px;
+  color: black;
+  float: right;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  border: thin solid #f8f7f7;
+
+
+}
+/* Al posicionar el cursor el boton de cerrar sesión cambia de color */
+#btn-logout:hover{
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left:8px;  background: hsl(219, 92%, 49%);
+  color: white;
+  border: thin solid #f8f7f7;
+
+}
